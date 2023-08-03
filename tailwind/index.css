@@ -1,0 +1,113 @@
+.material-symbols-outlined {
+  /* color: brown; */
+}
+
+/* CSS */
+.button-44 {
+  background: #e62143;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: Mija, -apple-system, BlinkMacSystemFont, Roboto, "Roboto Slab",
+    "Droid Serif", Segoe UI system-ui, Arial, sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 33.4929px;
+  padding: 0.8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  word-break: break-word;
+  border: 0;
+}
+.button-44:active,
+.button-44:focus {
+  border-bottom-style: none;
+  border-color: #dadada;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 3px 3px inset;
+  outline: 0;
+}
+.button-44:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
+}
+
+
+.switch{
+  background-color: rgb(2, 1, 18);
+}
+
+.switch-button {
+  display: inline-block;
+  position: relative;
+  width: 180px;
+  height: 80px;
+  margin: 20px;
+  background-color: #1a1717;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.switch-button-checkbox {
+  display: none;
+}
+
+.switch-button-label {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 160%;
+  height: 100%;
+  background-color: #382727;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+}
+
+.switch-button-label-span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.switch-button-label-span.user {
+  transform: translateX(0);
+}
+
+.switch-button-label-span.provider {
+  transform: translateX(100%);
+}
+
+.switch-button-checkbox:checked + .switch-button-label {
+  left: -80%;
+}
+
+.switch-button-checkbox:checked + .switch-button-label .switch-button-label-span.user {
+  transform: translateX(-100%);
+}
+
+.switch-button-checkbox:checked + .switch-button-label .switch-button-label-span.provider {
+  transform: translateX(100%);
+}
